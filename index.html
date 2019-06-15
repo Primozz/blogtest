@@ -1,6 +1,14 @@
 ---
 layout: default
-title: Home
+title: My Notes
 ---
     <h1>My notes</h1>
     <p>This is the landing page if going to the repo root, i.e. same as going to index.html. As it seems, if index.html is missing readme.md is used instead as landing page; the template of GitHub Pages is applied to readme.md in that case.</p>
+
+    <h1>Newest note</h1>
+    <p>See documentation about <a href="https://help.shopify.com/en/themes/liquid/tags/iteration-tags">for loops</a>.</p>
+
+    {% for post in site.posts limit:1 %}
+    <h2><a href="/blogtest{{ post.url }}">{{ post.title }}</a></h2>
+    {{ content }}
+    {% endfor %}
