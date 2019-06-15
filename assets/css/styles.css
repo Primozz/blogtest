@@ -1,7 +1,35 @@
 body {
     font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-h1, h2, h2 {
-    color: slateblue;
+h1, h2, h3, h4, h5, h6 {
     font-family: "Playfair Display", serif;
+}
+nav li {
+    margin-bottom: 0;
+}
+a {
+    color: #000000;
+    text-decoration: none;
+    border-bottom: 1px solid #cc9900;
+}
+a:hover {
+    color: #0FA0CE;
+}
+
+.center {
+    text-align: center;
+}
+.section-border {
+    border-top: 4px double #ccc;
+    margin-top: 2rem;
+    padding-top: 2rem;
+}
+
+abbr:hover::after {
+    content:' (' attr(title) ')';
+}
+@media screen and (min-width: 550px) {
+    abbr[title]:after {
+        content: ""; 
+    }
 }

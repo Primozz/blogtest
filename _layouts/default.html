@@ -11,7 +11,21 @@
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/highlight-friendly.css">
   </head>
   <body>
-    {% include nav.html%}
-    {{ content }}
+    <div class="container">
+        <div class="row">
+            <div class="eight columns">
+              {{ content }}
+            </div>
+            <div class="four columns">
+              {% include nav.html%}
+            </div>
+        </div>
+
+        <div class="row section-border">
+          <footer>
+            Footer TO DO
+          </footer>
+        </div>
+    </div>
   </body>
 </html>
