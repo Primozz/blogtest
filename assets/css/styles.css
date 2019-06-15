@@ -1,1 +1,7 @@
-h1, h2, h2 {color: slateblue}
+body {
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h1, h2, h2 {
+    color: slateblue;
+    font-family: "Playfair Display", serif;
+}
