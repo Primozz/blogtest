@@ -10,5 +10,5 @@ title: My Notes
 
     {% for post in site.posts limit:1 %}
     <h2><a href="/blogtest{{ post.url }}">{{ post.title }}</a></h2>
-    {{ content }}
+    {{ post.content }}
     {% endfor %}
