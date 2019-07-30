@@ -4,6 +4,10 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: "Playfair Display", serif;
 }
+h1 { font-size: 4.0rem; }
+h2 { font-size: 3.0rem; }
+h3 { font-size: 2.4rem; }
+h4 { font-size: 2.0rem; }
 nav li {
     margin-bottom: 0;
 }
@@ -14,6 +18,11 @@ a {
 }
 a:hover {
     color: #0FA0CE;
+}
+code {
+    background: unset;
+    border: unset;
+    border-radius: unset;
 }
 
 .container{
@@ -26,6 +35,13 @@ a:hover {
     border-top: 4px double #ccc;
     margin-top: 2rem;
     padding-top: 2rem;
+}
+
+footer p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    text-align: center;
+
 }
 
 abbr:hover::after {
